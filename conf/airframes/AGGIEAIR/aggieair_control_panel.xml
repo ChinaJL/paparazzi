@@ -73,6 +73,7 @@
     </program>
     <program name="Link Forwarder" command="sw/tools/rustlink-forwarder/link_forwarder.sh"/>
     <program name="Ivy Logger" command="sw/tools/ivy_logger/ivyLogger.sh"/>
+    <program name="Mission Planner" command="sw/ext/ivy-cpp/testIvy"/>
  </section>
 
   <section name="sessions">
@@ -415,9 +416,14 @@
         <arg flag="-b" constant="127.255.255.255:8484"/>
       </program>
 
+      <!--program name="Mission Planner">
+        <arg flag="-b" constant="127.255.255.255:8484"/>
+      </program-->
+
       <program name="Link Forwarder">
         <arg flag="-b" constant="127.255.255.255:8484"/>
         <arg flag="-d" constant="4245"/>
+        <!-- 22 for evil mode -->
         <arg flag="-u" constant="4244"/>
       </program>
 

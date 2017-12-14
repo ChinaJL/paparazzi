@@ -96,6 +96,6 @@
    flight_plan="flight_plans/rotorcraft_basic_mission.xml"
    settings="settings/rotorcraft_basic.xml settings/nps.xml"
    settings_modules="modules/air_data.xml modules/geo_mag.xml modules/gps_ubx_ucenter.xml modules/ahrs_float_mlkf.xml modules/stabilization_rate.xml modules/stabilization_int_quat.xml modules/nav_basic_rotorcraft.xml modules/guidance_rotorcraft.xml modules/gps.xml modules/imu_common.xml"
-   gui_color="blue"
+   gui_color="#f6beffff0b9b"
   />
 </conf>
